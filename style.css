@@ -1,90 +1,81 @@
 .body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
-    width: 960px;
     font-size: 18px;
-    background: #777;
-
-}
-
-#header {
-    background: #ebebeb;
     
 }
+
+/* Style for the Header */
+#header {
+        
+        border-bottom: solid 1px gray;
+        border-top: solid 0px gray;
+        height: 80px;
+        
+       
+    
+}
+    /* Adding customization of the Nav Nar */
     #header .nav {
         text-align: right;
-        padding-right: 30px;
+        padding-left: 30px;
+        padding-right: 30px; 
         padding-top: 20px;
-        padding-bottom: 90px;
-        list-style-type: none;
+        text-decoration: none;
         
+        
+    }
+    /*Style for the menu */
+   #header .nav li {
+        float: right;  
+        text-align: right;
     }
 
     #header .name {
         
-        font-size: 30px;
-        background-color: green;
-        padding-top: -20px;
-        padding-bottom: 125px;
-        list-style-type: none;
-        padding-left: 60px;
-        padding-right: 60px; 
+        float: left;  
+        text-align: left;
+        font-size: 50px;
+        padding-left: 50px;
+        padding-right: 50px; 
+        text-align: left;
+        background-color: aquamarine;
+        text-align: left;
+        text-decoration: none;
+       
+    }
+  
+
+    /*Adding Style for the section */
+    #section {
+        padding-top: 10px;
+        padding-bottom: 50px;
+        border-bottom: solid 10px green;
+        color: rgb(11, 112, 42);
+        font-size: 18px;
         
     }
-   
-
-
-/* Adding customization of the Nav Nar */
-#nav {
-   background-color: #ebebeb;
-   width: 495px;
-}
-
-#link {
-    padding-left: 50px;
-}
-
-/*Style for the menu */
-.nav li {
-  float: right;  
-  text-align: right;
-}
-
-.nav.navbar {
-    padding-right: 50px;
-}
-
-/*Style for article */
-.section {
-    width: 100%;
-}
-
-.section.img {
-
-    border: 1px solid black;
-    padding: 5px;
-    width: 150px;
-    float: left;
-    margin: 4px 10px 0px 0px; 
-}
+        #section .article  {
+            color: black;
+           
+        }
 
 /* Style for Footer  */
-.footer  {
+#footer  {
 
     color: white;
     text-align: center;
     background-color: #777;
-    height: 30px;
-    border: 3px;
-    border-top: thick green;
-    width: 100%;
-    padding-top: 5px;
+    padding-top: 10px;
 
 }
 
-.hr {
-    border-width: 50px;
-    color: green;
+hr { 
+    border: 0; 
+    height: 1px; 
+    background: #333; 
+    background-image: linear-gradient(to right, #ccc, #333, #ccc); 
 }
+
+
 
 
