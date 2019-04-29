@@ -1,0 +1,90 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+    background: #777;
+
+}
+
+#header {
+    background: #ebebeb;
+    
+}
+    #header .nav {
+        text-align: right;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 90px;
+        list-style-type: none;
+        
+    }
+
+    #header .name {
+        
+        font-size: 30px;
+        background-color: green;
+        padding-top: -20px;
+        padding-bottom: 125px;
+        list-style-type: none;
+        padding-left: 60px;
+        padding-right: 60px; 
+        
+    }
+   
+
+
+/* Adding customization of the Nav Nar */
+#nav {
+   background-color: #ebebeb;
+   width: 495px;
+}
+
+#link {
+    padding-left: 50px;
+}
+
+/*Style for the menu */
+.nav li {
+  float: right;  
+  text-align: right;
+}
+
+.nav.navbar {
+    padding-right: 50px;
+}
+
+/*Style for article */
+.section {
+    width: 100%;
+}
+
+.section.img {
+
+    border: 1px solid black;
+    padding: 5px;
+    width: 150px;
+    float: left;
+    margin: 4px 10px 0px 0px; 
+}
+
+/* Style for Footer  */
+.footer  {
+
+    color: white;
+    text-align: center;
+    background-color: #777;
+    height: 30px;
+    border: 3px;
+    border-top: thick green;
+    width: 100%;
+    padding-top: 5px;
+
+}
+
+.hr {
+    border-width: 50px;
+    color: green;
+}
+
+
